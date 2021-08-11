@@ -1,0 +1,155 @@
+  $white: #ffffff;
+  $lunar-rays: #cbced1;
+  $paper-white: #ecf0f3;
+  $emptiness: #fcfcfc;
+
+  $palladium: #b1b1b1;
+  $chrome-aluminum: #a7aaaf;
+  $tin: #909090;
+  $rhine-castle: #5f5f5f;
+  $stone-cold-gray: #555;
+
+  $smoked-salmon: #fa8072;
+  $capri: #00bfff;
+
+  .login-div {
+    width: 350px;
+    height: 595px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background: $paper-white;
+    box-shadow: 13px 13px 20px $lunar-rays,
+                -13px -13px 20px $white;
+  }
+  
+  .logo {
+    background-color: $smoked-salmon;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow:
+      /* logo shadow */
+      0px 0px 2px $rhine-castle,
+      /* offset */
+      0px 0px 0px 5px $paper-white,
+      /* bottom right */
+      8px 8px 15px $chrome-aluminum,
+      /* top left */
+      -8px -8px 15px $white;
+  }
+
+  .title {
+    font-weight: 600;
+    color: $capri;
+    text-align: center;
+    font-size: 36px;
+    padding-top: 24px;
+    letter-spacing: 0.5px;
+  }
+
+  .sub-title {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 7px;
+  }
+
+  .fields {
+    width: 100%;
+    padding-top: 15px;
+  }
+
+  .fields input {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    color: $stone-cold-gray;
+    padding: 20px 10px 20px 5px;
+    font-weight: 500;
+  }
+
+  .username, .password, .email, .first-name, .last-name {
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px $lunar-rays,
+                inset -8px -8px 8px $white;
+  }
+
+  .password-invalid {
+    box-shadow: inset 8px 8px 8px #ffb0b0,
+                inset -8px -8px 8px #ffdede;
+  }
+
+  .fields svg {
+    height: 22px;
+    margin: 0 10px -3px 25px;
+  }
+
+  .register-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 48%;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+    color: $capri;
+    text-align: center;
+    background-color: $paper-white;
+    box-shadow: 3px 3px 8px $palladium,
+                -3px -3px 8px $white;
+    transition: 0.5s;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+
+  .register-btn:hover,
+  .register-btn:active {
+    background-color: $emptiness;
+  }
+
+  .link {
+    padding-top: 20px;
+    text-align: center;
+    color: $tin;
+
+    a {
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: normal;
+    }
+
+    span {
+      font-size: 12px;
+      margin-right: 2px;
+    }
+  }
+
+  .sig-link a {
+    color: $capri;
+  }
+
+  .forgot {
+    margin-top: -10px;
+    padding-top: 0px;
+    margin-left: 168px;
+    margin-bottom: 15px;
+
+    a {
+      color: $tin;
+    }
+  }
+
+  .icon-common {
+      margin-left: 15px;
+      filter: invert(59%) sepia(6%) saturate(158%) hue-rotate(161deg) brightness(89%) contrast(85%);
+  }
+
+  div img,
+  div input {
+    margin-top: -7px;
+  }
